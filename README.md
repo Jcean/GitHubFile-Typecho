@@ -11,7 +11,7 @@
 1. 用于将文章附件上传至 Github 的仓库中
 2. 添加图片进入文章时会替换链接为 js­De­livr 的地址
 3. 本插件利用此服务来加速文章附件（图片等）访问速度
-4. 关于 js­De­livr 运用于博客的优势本文不再赘述，具体请访问[这里](https://www.jcean.com/archives/68.html)
+4. 关于 js­De­livr 运用于博客的优势本文不再赘述，具体请访问<a target="_blank" href="https://www.jcean.com/archives/68.html">这里</a>
 
 ## 声明
 
@@ -32,7 +32,7 @@
    
 Github 用户名：必填，您的 Github 用户名。
 Github 仓库名：必填，您用于储存附件文件的仓库名称。  
-Github 账号 To­ken：必填，您的 Github 账号的 Token，不知道如何获取账号Token 请点击[这里](https://www.bilibili.com/read/cv4627037)。  
+Github 账号 To­ken：必填，您的 Github 账号的 Token，不知道如何获取账号Token 请点击<a target="_blank" href="https://www.bilibili.com/read/cv4627037">这里</a>。  
 Github 仓库内的上传目录：必填，附件上传到的仓库内目录位置。如果您不知道如何填写，建议保持默认内容。  
 文件链接访问方式：建议选择 "访问最新版本"。若修改图片，直接访问方式不方便更新缓存。  
 是否保存在本地：是否将文件保存到本地。 
