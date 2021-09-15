@@ -4,7 +4,7 @@
 
 ## 界面
 
-![GitHubFile](//cdn.jsdelivr.net/gh/Jcean/BlogStatic@latest/usr/uploads/2021/09/2176525845.jpg)
+![GitHubFile](https://cdn.jsdelivr.net/gh/Jcean/BlogStatic@latest/usr/uploads/2021/09/2176525845.jpg)
 
 ## 介绍
 
