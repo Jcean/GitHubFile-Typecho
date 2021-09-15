@@ -81,7 +81,7 @@ class GitHubFile_Plugin implements Typecho_Plugin_Interface
                 window.onload = function() {
                     let notice = '正在检查更新...'
                     $.ajax({
-                        url: 'https://api.github.com/repos/Jcean/UploadGithub-Typecho/releases',
+                        url: 'https://api.github.com/repos/Jcean/GitHubFile-Typecho/releases',
                         type: 'GET',
                         success: res => {
                             if(res && res.length > 0) {
@@ -90,13 +90,12 @@ class GitHubFile_Plugin implements Typecho_Plugin_Interface
                                 if(netVersion == null) notice = '检查更新失败，请手动访问插件项目地址获取更新。'
                                 else if(version === netVersion) notice = '您当前的插件是最新版本：v' + netVersion
                                 else notice = '插件需要更新，当前版本：v' + netVersion + '。<a target="_blank" href="https://github.com/Jcean/GitHubFile-Typecho/releases">点击这里</a>获取新版本'
-                            } else notice = '检查更新失败，请手动访问<a target="_blank" href="https://github.com/Jcean/GitHubFile-Typecho/releases">项目地址</a>获取更新。'
+                            } else notice = '检查更新失败，请手动访问<a target="_blank" href="https://github.com/Jcean/GitHubFile-Typecho">项目地址</a>获取更新。'
                         },
                         error: () => {
-                            notice = '检查更新失败，请手动访问<a target="_blank" href="https://github.com/Jcean/GitHubFile-Typecho/releases">项目地址</a>获取更新。'
+                            notice = '检查更新失败，请手动访问<a target="_blank" href="https://github.com/Jcean/GitHubFile-Typecho">项目地址</a>获取更新。'
                         },
                         complete: () => {
-                            notice = '您当前的插件是最新版本：v1.0.0'
                             $('#check-update').html(notice)
                         }
                     })
